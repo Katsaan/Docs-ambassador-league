@@ -1,5 +1,4 @@
 site_name: Docs Ambassador League
-docs_dir: "docs_folder_structure/"
 theme:
   name: material
   features:
@@ -14,10 +13,10 @@ theme:
     - navigation.tabs
     # - navigation.tabs.sticky
     # - navigation.top
-    # - navigation.tracking
-    # - search.highlight
-    # - search.share
-    # - search.suggest
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
     # - toc.follow
     # - toc.integrate
     # toc
