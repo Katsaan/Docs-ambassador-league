@@ -27,12 +27,17 @@ plugins:
       lang: en
   - i18n:
       default_language: en
-      docs_structure: folder
+      docs_structure: suffix
       languages:
+        default:
+          name: Default (en)
+          build: true
         en:
           name: English
+          build: true
         fr:
           name: Français
+          build: true
 
 # extra:
 #   alternate:
