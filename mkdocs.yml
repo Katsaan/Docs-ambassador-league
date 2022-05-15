@@ -131,19 +131,19 @@ plugins:
 #       - Creating your site: Intro/content-league.md
 #       - Publishing your site: Intro/Intro-league.md
 
-page:
+nav:
   - Home: index.md
   - About:
       - Installation: Intro/about.md
       - Creating your site: Intro/content-league.md
       - Publishing your site: Intro/Intro-league.md
-  - Anglais:
+  - en:
       - Home: en/index.md
       - About:
           - Installation: en/Intro/about.md
           - Creating your site: en/Intro/content-league.md
           - Publishing your site: en/Intro/Intro-league.md
-  - Français:
+  - fr:
       - Maison: fr/index.md
       - A propos:
           - Installation: fr/Intro/about.md
