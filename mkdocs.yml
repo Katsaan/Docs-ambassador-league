@@ -27,7 +27,7 @@ plugins:
       lang: en
   - i18n:
       default_language: en
-      docs_structure: ./docs/
+      docs_structure: docs
       languages:
         en:
           name: English
