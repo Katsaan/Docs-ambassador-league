@@ -1,5 +1,5 @@
 site_name: Docs Ambassador League
-docs_dir: "./docs/en"
+docs_dir: "./docs/"
 theme:
   name: material
   language: en
@@ -27,7 +27,7 @@ plugins:
       lang: en
   - i18n:
       default_language: en
-      docs_structure: folder
+      docs_structure: suffix
       languages:
         en:
           name: English
