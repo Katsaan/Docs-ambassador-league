@@ -36,14 +36,14 @@ plugins:
         fr:
           name: Français
           build: true
-# extra:
-#   alternate:
-#     - name: English
-#       link: /en/
-#       lang: en
-#     - name: French
-#       link: /fr/
-#       lang: fr
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: French
+      link: /fr/
+      lang: fr
 # - name: Afrikaans
 #   link: /af/
 #   lang: af
