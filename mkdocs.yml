@@ -15,15 +15,14 @@ theme:
     # - navigation.tabs.sticky
     # - navigation.top
     - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
+    # - search.highlight
+    # - search.share
+    # - search.suggest
     # - toc.follow
     # - toc.integrate
     # toc
 
 plugins:
-  - search
   - i18n:
       default_language: en
       docs_structure: folder
