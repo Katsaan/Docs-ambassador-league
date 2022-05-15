@@ -25,7 +25,7 @@ plugins:
   - search
   - i18n:
       default_language: en
-      docs_structure: suffix
+      docs_structure: folder
       languages:
         en: English
         fr: Français
