@@ -1,5 +1,5 @@
 site_name: Docs Ambassador League
-docs_dir: "docs/"
+docs_dir: "docs_folder_structure/"
 theme:
   name: material
   features:
@@ -27,23 +27,16 @@ plugins:
       default_language: en
       docs_structure: suffix
       languages:
-        default:
-          name: Default (en)
-          build: true
-        en:
-          name: English
-          build: true
-        fr:
-          name: Français
-          build: true
-extra:
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: French
-      link: /fr/
-      lang: fr
+        en: English
+        fr: Français
+# extra:
+#   alternate:
+#     - name: English
+#       link: /en/
+#       lang: en
+#     - name: French
+#       link: /fr/
+#       lang: fr
 # - name: Afrikaans
 #   link: /af/
 #   lang: af
@@ -132,9 +125,9 @@ extra:
 #   link: /vi/
 #   lang: vi
 
-# nav:
-#   - Home: index.md
-#   - About:
-#       - Installation: Intro/about.md
-#       - Creating your site: Intro/content-league.md
-#       - Publishing your site: Intro/Intro-league.md
+nav:
+  - Home: index.md
+  - About:
+      - Installation: Intro/about.md
+      - Creating your site: Intro/content-league.md
+      - Publishing your site: Intro/Intro-league.md
