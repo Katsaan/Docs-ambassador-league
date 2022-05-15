@@ -27,6 +27,7 @@ plugins:
       lang: en
   - i18n:
       default_language: en
+      docs_structure: folder
       languages:
         en:
           name: English
