@@ -23,8 +23,6 @@ theme:
     # - toc.integrate
 
 plugins:
-  - search:
-      lang: en
   - i18n:
       default_language: en
       docs_structure: folder
