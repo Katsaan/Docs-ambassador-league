@@ -31,96 +31,96 @@ extra:
     - name: English
       link: /en/
       lang: en
-    - name: French
-      link: /fr/
-      lang: fr
-    - name: Afrikaans
-      link: /af/
-      lang: af
-    - name: Arabic
-      link: /ar/
-      lang: ar
-    - name: Catalan
-      link: /ca/
-      lang: ca
-    - name: Chinese (Simplified)
-      link: /zh/
-      lang: zh
-    - name: Chinese (Traditional)
-      link: /zh-Han/
-      lang: zh-Han
-    - name: Czech
-      link: /cs/
-      lang: cs
-    - name: Danish
-      link: /da/
-      lang: da
-    - name: Dutch
-      link: /nl/
-      lang: nl
-    - name: Finnish
-      link: /fi/
-      lang: fi
-    - name: German
-      link: /ge/
-      lang: ge
-    - name: Greek
-      link: /el/
-      lang: el
-    - name: Hebrew
-      link: /he/
-      lang: he
-    - name: Hungarian
-      link: /hu/
-      lang: hu
-    - name: Italian
-      link: /it/
-      lang: it
-    - name: Japanese
-      link: /ja/
-      lang: ja
-    - name: Korean
-      link: /kr/
-      lang: kr
-    - name: Norwegian
-      link: /no/
-      lang: no
-    - name: Polish
-      link: /pl/
-      lang: pl
-    - name: Portuguese
-      link: /pt/
-      lang: pt
-    - name: Portuguese (Brazilian)
-      link: /pt-BR/
-      lang: pt-BR
-    - name: Romanian
-      link: /ro/
-      lang: ro
-    - name: Russian
-      link: /ru/
-      lang: ru
-    - name: Serbian
-      link: /sr/
-      lang: sr
-    - name: Spanish
-      link: /es/
-      lang: es
-    - name: Swedish
-      link: /sv/
-      lang: sv
-    - name: Thai
-      link: /th/
-      lang: th
-    - name: Turkish
-      link: /tr/
-      lang: tr
-    - name: Ukrainian
-      link: /uk/
-      lang: uk
-    - name: Vietnamese
-      link: /vi/
-      lang: vi
+    # - name: French
+    #   link: /fr/
+    #   lang: fr
+    # - name: Afrikaans
+    #   link: /af/
+    #   lang: af
+    # - name: Arabic
+    #   link: /ar/
+    #   lang: ar
+    # - name: Catalan
+    #   link: /ca/
+    #   lang: ca
+    # - name: Chinese (Simplified)
+    #   link: /zh/
+    #   lang: zh
+    # - name: Chinese (Traditional)
+    #   link: /zh-Han/
+    #   lang: zh-Han
+    # - name: Czech
+    #   link: /cs/
+    #   lang: cs
+    # - name: Danish
+    #   link: /da/
+    #   lang: da
+    # - name: Dutch
+    #   link: /nl/
+    #   lang: nl
+    # - name: Finnish
+    #   link: /fi/
+    #   lang: fi
+    # - name: German
+    #   link: /ge/
+    #   lang: ge
+    # - name: Greek
+    #   link: /el/
+    #   lang: el
+    # - name: Hebrew
+    #   link: /he/
+    #   lang: he
+    # - name: Hungarian
+    #   link: /hu/
+    #   lang: hu
+    # - name: Italian
+    #   link: /it/
+    #   lang: it
+    # - name: Japanese
+    #   link: /ja/
+    #   lang: ja
+    # - name: Korean
+    #   link: /kr/
+    #   lang: kr
+    # - name: Norwegian
+    #   link: /no/
+    #   lang: no
+    # - name: Polish
+    #   link: /pl/
+    #   lang: pl
+    # - name: Portuguese
+    #   link: /pt/
+    #   lang: pt
+    # - name: Portuguese (Brazilian)
+    #   link: /pt-BR/
+    #   lang: pt-BR
+    # - name: Romanian
+    #   link: /ro/
+    #   lang: ro
+    # - name: Russian
+    #   link: /ru/
+    #   lang: ru
+    # - name: Serbian
+    #   link: /sr/
+    #   lang: sr
+    # - name: Spanish
+    #   link: /es/
+    #   lang: es
+    # - name: Swedish
+    #   link: /sv/
+    #   lang: sv
+    # - name: Thai
+    #   link: /th/
+    #   lang: th
+    # - name: Turkish
+    #   link: /tr/
+    #   lang: tr
+    # - name: Ukrainian
+    #   link: /uk/
+    #   lang: uk
+    # - name: Vietnamese
+    #   link: /vi/
+    #   lang: vi
 
 nav:
   - Home: index.md
