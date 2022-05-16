@@ -137,6 +137,11 @@ plugins:
 #       - Publishing your site: Intro/Intro-league.md
 
 nav:
+  - Home: index.md
+    - About:
+        - Installation: Intro/about.md
+        - Creating your site: Intro/content-league.md
+        - Publishing your site: Intro/Intro-league.md
   - en:
       - Home: index.md
       - About:
