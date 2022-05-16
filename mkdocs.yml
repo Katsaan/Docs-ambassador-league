@@ -25,11 +25,14 @@ theme:
 plugins:
   - i18n:
       default_language: en
+      docs_structure: folder
       languages:
         en:
           name: English
+          link: ./docs/en/
         fr:
           name: Français
+          link: ./docs/fr/
 # extra:
 #   alternate:
 #     - name: English
@@ -135,14 +138,14 @@ plugins:
 
 nav:
   - en:
-      - Home: en/index.en.md
+      - Home: en/index.md
       - About:
-          - Installation: en/Intro/about.en.md
-          - Creating your site: en/Intro/content-league.en.md
-          - Publishing your site: en/Intro/Intro-league.en.md
+          - Installation: en/Intro/about.md
+          - Creating your site: en/Intro/content-league.md
+          - Publishing your site: en/Intro/Intro-league.md
   - fr:
-      - Maison: fr/index.fr.md
+      - Maison: fr/index.md
       - A propos:
-          - Installation: fr/Intro/about.fr.md
-          - Creating your site: fr/Intro/content-league.fr.md
-          - Publishing your site: fr/Intro/Intro-league.fr.md
+          - Installation: fr/Intro/about.md
+          - Creating your site: fr/Intro/content-league.md
+          - Publishing your site: fr/Intro/Intro-league.md
