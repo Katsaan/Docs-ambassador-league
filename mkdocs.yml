@@ -25,14 +25,11 @@ theme:
 plugins:
   - i18n:
       default_language: en
-      docs_structure: folder
       languages:
         en:
           name: English
-          link: ./docs/en/
         fr:
           name: Français
-          link: ./docs/fr/
 # extra:
 #   alternate:
 #     - name: English
