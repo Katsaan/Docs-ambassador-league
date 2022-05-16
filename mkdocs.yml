@@ -26,8 +26,12 @@ plugins:
       default_language: en
       docs_structure: folder
       languages:
-        en: English
-        fr: Français
+        en:
+          name: English
+          link: ./docs/en/
+        fr:
+          name: Français
+          link: ./docs/fr/
 # extra:
 #   alternate:
 #     - name: English
