@@ -25,14 +25,11 @@ theme:
 plugins:
   - i18n:
       default_language: en
-      docs_structure: folder
       languages:
         en:
           name: English
-          link: ./docs/en/
         fr:
           name: Français
-          link: ./docs/fr/
 # extra:
 #   alternate:
 #     - name: English
@@ -129,13 +126,12 @@ plugins:
 #   link: /vi/
 #   lang: vi
 
-# nav:
-#   - Home: index.md
-#   - About:
-#       - Installation: Intro/about.md
-#       - Creating your site: Intro/content-league.md
-#       - Publishing your site: Intro/Intro-league.md
-
+nav:
+  - Home: index.md
+  - About:
+      - Installation: Intro/about.md
+      - Creating your site: Intro/content-league.md
+      - Publishing your site: Intro/Intro-league.md
 # nav:
 #   - Home: index.md
 #   - About:
