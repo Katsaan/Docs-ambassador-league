@@ -4,7 +4,6 @@ site_dir: "../../generated/en" # Where to put the English HTML files
 
 theme:
   name: material
-  custom_dir: "../../overrides/"
   language: en
   features:
     # - content.code.annotate
