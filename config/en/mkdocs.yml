@@ -1,6 +1,6 @@
 site_name: Docs Ambassador League
 docs_dir: "../../docs/en" # Where to find the English markdown files
-site_dir: "../../generated/en" # Where to put the English HTML files
+site_dir: "../../site/en" # Where to put the English HTML files
 
 theme:
   name: material
@@ -37,13 +37,12 @@ extra:
 plugins:
   - search:
       lang: en
-
-nav:
-  - Home: index.md
-  - About:
-      - Installation: Intro/about.md
-      - Creating your site: Intro/content-league.md
-      - Publishing your site: Intro/Intro-league.md
+# nav:
+#   - Home: en/index.md
+#   - About:
+#       - Installation: en/Intro/about.md
+#       - Creating your site: en/Intro/content-league.md
+#       - Publishing your site: en/Intro/Intro-league.md
 # plugins:
 #   - search
 #   - i18n:
