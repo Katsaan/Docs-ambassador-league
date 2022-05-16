@@ -1,4 +1,5 @@
 site_name: Docs Ambassador League
+docs_dir: docs
 theme:
   name: material
   features:
