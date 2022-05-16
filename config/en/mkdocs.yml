@@ -1,7 +1,11 @@
 site_name: Docs Ambassador League
-docs_dir: docs
+docs_dir: "../../docs/en" # Where to find the English markdown files
+site_dir: "../../generated/en" # Where to put the English HTML files
+
 theme:
   name: material
+  custom_dir: "../../overrides/"
+  language: en
   features:
     # - content.code.annotate
     # - content.tabs.link
@@ -22,15 +26,36 @@ theme:
     # - toc.integrate
     # toc
 
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: French
+      link: /fr/
+      lang: fr
+
 plugins:
-  - search
-  - i18n:
-      default_language: en
-      languages:
-        en:
-          name: English
-        fr:
-          name: Français
+  - search:
+      lang: en
+
+nav:
+  - Home: index.md
+  - About:
+      - Installation: Intro/about.md
+      - Creating your site: Intro/content-league.md
+      - Publishing your site: Intro/Intro-league.md
+# plugins:
+#   - search
+#   - i18n:
+#       default_language: en
+#       languages:
+#         en:
+#           name: English
+#         fr:
+#           name: Français
+#
+#
 # extra:
 #   alternate:
 #     - name: English
@@ -126,28 +151,3 @@ plugins:
 # - name: Vietnamese
 #   link: /vi/
 #   lang: vi
-
-# nav:
-#   - Home: index.md
-#   - About:
-#       - Installation: Intro/about.md
-#       - Creating your site: Intro/content-league.md
-#       - Publishing your site: Intro/Intro-league.md
-nav:
-  - Home: index.md
-  - About:
-      - Installation: Intro/about.md
-      - Creating your site: Intro/content-league.md
-      - Publishing your site: Intro/Intro-league.md
-  - en:
-      - Home: index.en.md
-      - About:
-          - Installation: Intro/about.en.md
-          - Creating your site: Intro/content-league.en.md
-          - Publishing your site: Intro/Intro-league.en.md
-  - fr:
-      - Accueil: index.fr.md
-      - A propos:
-          - Installation: Intro/about.fr.md
-          - Creating your site: Intro/content-league.fr.md
-          - Publishing your site: Intro/Intro-league.fr.md
