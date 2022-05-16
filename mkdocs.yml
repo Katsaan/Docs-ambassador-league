@@ -138,14 +138,14 @@ plugins:
 
 nav:
   - en:
-      - Home: en/index.md
+      - Home: ./docs/en/index.md
       - About:
-          - Installation: en/Intro/about.md
-          - Creating your site: en/Intro/content-league.md
-          - Publishing your site: en/Intro/Intro-league.md
+          - Installation: ./docs/en/Intro/about.md
+          - Creating your site: ./docs/en/Intro/content-league.md
+          - Publishing your site: ./docs/en/Intro/Intro-league.md
   - fr:
-      - Maison: fr/index.md
+      - Maison: ./docs/fr/index.md
       - A propos:
-          - Installation: fr/Intro/about.md
-          - Creating your site: fr/Intro/content-league.md
-          - Publishing your site: fr/Intro/Intro-league.md
+          - Installation: ./docs/fr/Intro/about.md
+          - Creating your site: ./docs/fr/Intro/content-league.md
+          - Publishing your site: ./docs/fr/Intro/Intro-league.md
